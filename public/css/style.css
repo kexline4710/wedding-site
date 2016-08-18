@@ -5,16 +5,16 @@
 
 @font-face {
     font-family: 'hensaregular';
-    src: url('./fonts/hensa-webfont.woff2') format('woff2'),
-         url('./fonts/hensa-webfont.woff') format('woff');
+    src: url('../fonts/hensa-webfont.woff2') format('woff2'),
+         url('../fonts/hensa-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'loranoextralight';
-    src: url('lorano-extralight-webfont.woff2') format('woff2'),
-         url('lorano-extralight-webfont.woff') format('woff');
+    src: url('../fonts/lorano-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/lorano-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-size: 0.8em;
+  font-size: 1em;
   font-family: 'loranoextralight';
   color: #EFF4EF;
   margin-top: 30px;
