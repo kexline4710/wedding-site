@@ -1,11 +1,6 @@
 /* Fonts */
 
 @font-face {
-  font-family: 'Hensa'; /*a name to be used later*/
-  src: url('./public/fonts/Hensa.ttf'); /*URL to font*/
-}
-
-@font-face {
   font-family: 'Lorano-ExtraLight'; /*a name to be used later*/
   src: url('./public/fonts/Lorano-ExtraLight.ttf'); /*URL to font*/
 }
@@ -14,7 +9,7 @@
 
 h1 {
   font-size: 8em;
-  font-family: 'Hensa';
+  font-family: 'hensaregular';
   color: #EFF4EF;
   margin: 0;
 }
