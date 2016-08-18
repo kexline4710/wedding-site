@@ -1,0 +1,45 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Hensa'; /*a name to be used later*/
+  src: url('./public/fonts/Hensa.ttf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'Lorano-ExtraLight'; /*a name to be used later*/
+  src: url('./public/fonts/Lorano-ExtraLight.ttf'); /*URL to font*/
+}
+
+/* Styles */
+
+h1 {
+  font-size: 8em;
+  font-family: 'Hensa';
+  color: #EFF4EF;
+  margin: 0;
+}
+
+h2 {
+  font-size: 0.8em;
+  font-family: 'Lorano-ExtraLight';
+  color: #EFF4EF;
+  margin-top: 30px;
+}
+
+body {
+  background-color: #160B16;
+}
+
+#site-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+#announcement {
+  margin-top: 200px;
+}
+
+#heart {
+  max-width: 30px;
+}
